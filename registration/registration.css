@@ -1,0 +1,188 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #FEFCF7;
+  margin: 1.5rem 4rem;
+  height: 70vh;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  gap: 4rem;
+  font-weight: bold;
+}
+
+.head a{
+  text-decoration: none;
+  color: #83888F;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}
+
+.head a:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.form-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  background-color: #1a1a1a;
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.title{
+  color: #00bfff;
+  font-size: 2rem;
+}
+
+.message{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.name input{
+  width: 8.6rem;
+  color: white;
+}
+
+.name label input{
+  padding: 5px;
+  background-color: rgb(59, 58, 58);
+  border-radius: 6px;
+}
+
+.name label input::placeholder{
+  color: rgb(167, 167, 167);
+}
+
+.information label{
+  display: flex;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+}
+
+.information input{
+  display: flex;
+  align-items: center;
+  width: 18.3rem;
+  color: white;
+}
+
+.information{
+  color: rgb(167, 167, 167);
+}
+
+.information-content label input{
+  padding: 5px;
+  background-color: rgb(59, 58, 58);
+  border-radius: 6px;
+}
+
+.information-content label input::placeholder{
+  color: rgb(167, 167, 167);
+}
+
+.file{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.conditions{
+  width: 100%;
+}
+
+.conditions .terms{
+  width: 30%;
+  margin-left: -2.5rem;
+}
+
+.conditions span{
+  width: 70%;
+  margin-left: -2rem;
+}
+
+.submit{
+  color: white;
+  background-color: #00bfff;
+  border-style: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  transition: background-color 0.5s;
+}
+
+.submit:hover{
+  background-color: #067ca3;
+}
+
+.log-in{
+  color: rgb(167, 167, 167);
+  text-align: center;
+}
+
+.log-in a{
+  color: #00bfff;
+}
+
+.footer-container{
+  background-color: #2C343E;
+  padding: 3rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container img{
+  width: 15rem;
+}
+
+.footer-navbar ul{
+  display: flex;
+  gap: 3rem ;
+  list-style: none;
+}
+
+.footer-navbar ul li a{
+  text-decoration: none;
+  color: #83888F;
+  font-weight: 900;
+  padding: 1rem 1rem;
+  border-radius: 10rem;
+}
+
+.footer-navbar ul li a:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-social-media ul{
+  display: flex;
+  gap: 3rem ;
+  list-style: none;
+}
+
+.footer-social-media ul li img{
+  width: 2rem;
+}
+
+
